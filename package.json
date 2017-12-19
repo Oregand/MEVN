@@ -1,0 +1,14 @@
+{
+  "name": "MEVN",
+  "version": "2.3.4",
+  "description": "MEVN Stack",
+  "author": "David O'Regan <davidoregan91@gmail.com>",
+  "scripts": {
+    "prestart": "cd ./web/webapp && npm install",
+    "start": "cd ./web/webapp && npm run build",
+    "poststart": "cd ./web/webapp && node server.js"
+  },
+  "dependencies": {
+    "k6": "0.0.0"
+  }
+}

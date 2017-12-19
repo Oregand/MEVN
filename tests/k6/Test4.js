@@ -13,7 +13,7 @@ export let options = {
   // set loadimpact k6 test name
   ext: {
     loadimpact: {
-      name: 'Multi Album POST GAP Test Case'
+      name: 'Multi Album POST Test Case'
     }
   }
 };

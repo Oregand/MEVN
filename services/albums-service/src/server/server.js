@@ -1,10 +1,11 @@
 const express = require('express');
 const morgan = require('morgan');
 const helmet = require('helmet');
-const api = require('../api/albums');
 const jwt = require('express-jwt');
 const jwks = require('jwks-rsa');
 const history = require('connect-history-api-fallback');
+const cors = require('cors');
+const api = require('../api/albums');
 
 const start = (options) => {
   return new Promise((resolve, reject) => {
@@ -17,6 +18,7 @@ const start = (options) => {
 
     const app = express();
     app.use(morgan('dev'));
+    app.use(cors());
     //app.use(history());
     app.use(helmet());
     app.use((err, req, res, next) => {

@@ -15,7 +15,7 @@
   },
   "scripts": {
     "test": "mocha -R spec src/**/*.spec.js",
-    "start": "node src/index.js",
+    "start": "nodemon src/index.js",
     "lint": "standard --verbose | snazzy",
     "node-debug": "DEBUG=express* node src/index.js",
     "chrome-debug": "node --debug-brk --inspect src/index.js"
@@ -35,10 +35,16 @@
     "supertest": "^2.0.1"
   },
   "dependencies": {
+    "cors": "^2.8.4",
     "express": "^4.14.0",
     "helmet": "^3.4.0",
     "http-status": "^0.2.5",
     "mongodb": "^2.1.18",
-    "morgan": "^1.7.0"
+    "morgan": "^1.7.0",
+    "connect-history-api-fallback": "^1.5.0",
+    "nodemon": "^1.12.5",
+    "express-jwt": "^5.3.0",
+    "jwks-rsa": "^1.2.1",
+    "jwt-decode": "^2.2.0"
   }
 }

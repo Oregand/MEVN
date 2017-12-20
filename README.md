@@ -47,7 +47,6 @@ Before you begin I recommend you read about the basic building blocks that assem
 │   │   └── start-service.sh
 ├── tests
 │   └── k6
-│   │   └── gap
 ├── web
 │   └── webapp
 ├── .gitlab-ci.yml

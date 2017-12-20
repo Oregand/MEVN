@@ -12,7 +12,7 @@ export let options = {
   // set loadimpact k6 test name
   ext: {
     loadimpact: {
-      name: 'First GAP Test Case'
+      name: 'First Load Test'
     }
   }
 };

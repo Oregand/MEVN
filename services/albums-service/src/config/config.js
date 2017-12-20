@@ -1,7 +1,7 @@
 const dbSettings = {
   db: process.env.DB || 'albums',
   user: process.env.DB_USER || 'david',
-  pass: process.env.DB_PASS || 'password',
+  pass: process.env.DB_PASS || 'davidPassword2017',
   repl: process.env.DB_REPLS || 'rs1',
   servers: (process.env.DB_SERVERS) ? process.env.DB_SERVERS.split(' ') : [
     '192.168.99.100:27017',

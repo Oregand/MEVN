@@ -92,7 +92,7 @@ function removeAndCreateContainer {
   --keyFile /data/keyfile/$keyfile \
   --replSet $rs \
   --storageEngine wiredTiger \
-  --port $p
+  --port $p --bind_ip=0.0.0.0
 }
 
 # @params server container volume

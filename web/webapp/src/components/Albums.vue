@@ -127,7 +127,7 @@ export default {
       color: 'red',
       mode: '',
       timeout: 6000,
-      text: 'You need to login before you can view albums',
+      text: 'You need to login before you can view albums.',
     };
   },
   mounted() {
@@ -136,7 +136,7 @@ export default {
   methods: {
     async getAlbums() {
       const response = await AlbumService.fetchAlbums();
-      this.items = response.data.albums;
+      this.items = response.data;
     },
     async deleteAlbum(id) {
       await AlbumService.deleteAlbum(id);

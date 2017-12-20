@@ -127,7 +127,7 @@ export default {
       color: 'red',
       mode: '',
       timeout: 6000,
-      text: 'You need to login before you can view albums',
+      text: 'You need to login before you can view albums.',
     };
   },
   mounted() {

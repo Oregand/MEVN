@@ -136,7 +136,7 @@ export default {
   methods: {
     async getAlbums() {
       const response = await AlbumService.fetchAlbums();
-      this.items = response.data.albums;
+      this.items = response.data;
     },
     async deleteAlbum(id) {
       await AlbumService.deleteAlbum(id);

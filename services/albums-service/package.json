@@ -15,7 +15,7 @@
   },
   "scripts": {
     "test": "mocha -R spec src/**/*.spec.js",
-    "start": "node src/index.js",
+    "start": "nodemon src/index.js",
     "lint": "standard --verbose | snazzy",
     "node-debug": "DEBUG=express* node src/index.js",
     "chrome-debug": "node --debug-brk --inspect src/index.js"
@@ -32,7 +32,8 @@
     "should": "^11.1.2",
     "snazzy": "^6.0.0",
     "standard": "^8.6.0",
-    "supertest": "^2.0.1"
+    "supertest": "^2.0.1",
+    "nodemon": "^1.12.5"
   },
   "dependencies": {
     "express": "^4.14.0",

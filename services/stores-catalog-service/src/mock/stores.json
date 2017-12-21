@@ -6,28 +6,21 @@
     "storePremieres": [{
         "id": "1",
         "title": "Assasins Creed",
-        "runtime": 115,
-        "plot": "Lorem ipsum dolor sit amet",
-        "poster": "link to poster..."
+        "runtime": 115
       },
       {
         "id": "2",
         "title": "Aliados",
-        "runtime": 124,
-        "plot": "Lorem ipsum dolor sit amet",
-        "poster": "link to poster..."
+        "runtime": 124
       },
       {
         "id": "3",
         "title": "xXx: Reactivado",
-        "runtime": 107,
-        "plot": "Lorem ipsum dolor sit amet",
-        "poster": "link to poster..."
+        "runtime": 107
       }
     ],
     "storeRooms": [{
         "name": 1,
-        "capacity": 120,
         "format": "IMAX",
         "schedules": [{
             "time": "10:15",
@@ -48,7 +41,6 @@
       },
       {
         "name": 2,
-        "capacity": 100,
         "format": "Normal",
         "schedules": [{
           "time": "10:15",
@@ -58,7 +50,6 @@
       },
       {
         "name": 3,
-        "capacity": 80,
         "format": "4DX",
         "schedules": [{
           "time": "10:15",
@@ -77,21 +68,16 @@
     "storePremieres": [{
         "id": "1",
         "title": "Assasins Creed",
-        "runtime": 115,
-        "plot": "Lorem ipsum dolor sit amet",
-        "poster": "link to poster..."
+        "runtime": 115
       },
       {
         "id": "3",
         "title": "xXx: Reactivado",
-        "runtime": 107,
-        "plot": "Lorem ipsum dolor sit amet",
-        "poster": "link to poster..."
+        "runtime": 107
       }
     ],
     "storeRooms": [{
         "name": 1,
-        "capacity": 80,
         "format": "Normal",
         "schedules": [{
             "time": "10:15",
@@ -107,7 +93,6 @@
       },
       {
         "name": 2,
-        "capacity": 80,
         "format": "3D",
         "schedules": [{
             "time": "10:15",
@@ -131,7 +116,6 @@
     "name": "Estacion Central",
     "storeRooms": [{
         "name": 1,
-        "capacity": 100,
         "schedules": [{
             "time": "12:10",
             "album_id": "1",
@@ -151,7 +135,6 @@
       },
       {
         "name": 2,
-        "capacity": 80,
         "schedules": [{
           "time": "3:15",
           "album_id": "4",
@@ -160,7 +143,6 @@
       },
       {
         "name": 3,
-        "capacity": 80,
         "schedules": [{
           "time": "5:25",
           "album_id": "5",
@@ -177,7 +159,6 @@
     "name": "San Agustin",
     "storeRooms": [{
       "name": 1,
-      "capacity": 60,
       "schedules": [{
         "time": "12:15",
         "album_id": "1",
@@ -193,7 +174,6 @@
     "name": "Calima",
     "storeRooms": [{
         "name": 1,
-        "capacity": 100,
         "schedules": [{
             "time": "11:10",
             "album_id": "3",
@@ -213,7 +193,6 @@
       },
       {
         "name": 2,
-        "capacity": 80,
         "schedules": [{
           "time": "5:15",
           "album_id": "1",
@@ -222,7 +201,6 @@
       },
       {
         "name": 3,
-        "capacity": 80,
         "schedules": [{
           "time": "12:15",
           "album_id": "4",
@@ -239,7 +217,6 @@
     "name": "Hayuelos Colombia",
     "storeRooms": [{
       "name": 1,
-      "capacity": 60,
       "schedules": [{
         "time": "5:25",
         "album_id": "5",
@@ -255,7 +232,6 @@
     "name": "City Plaza",
     "storeRooms": [{
         "name": 1,
-        "capacity": 90,
         "schedules": [{
             "time": "11:40",
             "album_id": "1",
@@ -275,7 +251,6 @@
       },
       {
         "name": 2,
-        "capacity": 80,
         "schedules": [{
           "time": "5:15",
           "album_id": "2",
@@ -292,7 +267,6 @@
     "name": "Juriquilla Uptown",
     "storeRooms": [{
       "name": 1,
-      "capacity": 90,
       "schedules": [{
           "time": "11:40",
           "album_id": "1",

@@ -15,7 +15,7 @@ Before you begin I recommend you read about the basic building blocks that assem
 
 ```bash
 ├── services
-│   ├── albums-catalog-service
+│   ├── stores-catalog-service
 │   │   ├── intergration-test
 │   │   ├── src
 │   │   ├── .eslintrc.json

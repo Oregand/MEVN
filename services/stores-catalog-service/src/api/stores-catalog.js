@@ -5,7 +5,7 @@ module.exports = (app, options) => {
   const {repo} = options
 
   app.get('/stores', (req, res, next) => {
-    repo.getStoressByCity(req.query.cityId)
+    repo.getStoresByCity(req.query.cityId)
       .then(stores => {
         res.status(status.OK).json(stores)
       })

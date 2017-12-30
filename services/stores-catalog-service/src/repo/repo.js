@@ -3,7 +3,7 @@
 const repository = (connection) => {
   const {db, ObjectID} = connection
 
-  const getStoreByCity = (cityId) => {
+  const getStoresByCity = (cityId) => {
     return new Promise((resolve, reject) => {
       const stores = []
       const query = {city_id: cityId}

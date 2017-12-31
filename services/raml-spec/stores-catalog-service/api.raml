@@ -1,0 +1,35 @@
+#%RAML 1.0
+title: Store Catalog Service
+version: v1
+baseUri: /stores
+uses:
+  object: types.raml
+  stack: ../albums-service/api.raml
+
+types:
+  Countries: object.Country []
+  States: object.State []
+  Cities: object.City []
+  Stores: object.Store []
+  Albums: stack.AlbumPremieres
+  Schedules: object.Schedule []
+
+
+resourceTypes:
+  GET:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              type: <<item>>
+
+
+/:
+  type:  { GET: {item : Stores } }
+
+  /{store_id}:
+    type:  { GET: {item : Albums } }
+
+  /{ciyt_id}/{album_id}:
+      type:  { GET: {item : Schedules } }

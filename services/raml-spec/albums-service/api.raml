@@ -1,0 +1,35 @@
+#%RAML 1.0
+title: Albums Service
+version: v1
+baseUri: /albums
+
+types:
+  Album:
+    properties:
+      id: string
+      title: string
+      description: string
+    example:
+      id: "123"
+      title: "Assasins Creed"
+      description: "Assasins Creed Description"
+
+  AlbumPremieres:
+    type: Album []
+
+
+resourceTypes:
+  GET:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              type: <<item>>
+
+/:
+  /premieres:
+    type:  { GET: {item : AlbumPremieres } }
+
+  /{id}:
+    type:  { GET: {item : Album } }

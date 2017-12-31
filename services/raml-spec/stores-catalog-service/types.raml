@@ -1,0 +1,46 @@
+#%RAML 1.0 Library
+
+types:
+  Country:
+    properties:
+      _id: string
+      name: string
+
+  State:
+    properties:
+      _id: string
+      name: string
+      country_id: string
+
+  City:
+    properties:
+      _id: string
+      name: string
+      state_id: string
+
+  Location:
+    properties:
+      countryId: string
+      stateId: string
+      cityId: string
+
+  Schedule:
+    properties:
+      time: string
+      seatsEmpty: array
+      seatsOccupied: array
+      price: number
+      movie_id: string
+
+  StoreRoom:
+    properties:
+      name: number
+      capacity: number
+      schedules: Schedule
+
+  Store:
+    properties:
+      _id: string
+      name: string
+      storeRooms: StoreRoom
+      city_id: string

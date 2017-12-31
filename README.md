@@ -35,7 +35,10 @@ Before you begin I recommend you read about the basic building blocks that assem
 │   │   ├── package.json
 │   │   ├── README.md
 │   │   └── start-service.sh
-│   └── user-service
+│   └── raml-spec
+│   │   ├── albums-service
+│   │   └── stores-catalog-service.sh
+│   └── api-gateway
 │   │   ├── intergration-test
 │   │   ├── src
 │   │   ├── .eslintrc.json
@@ -45,6 +48,20 @@ Before you begin I recommend you read about the basic building blocks that assem
 │   │   ├── package.json
 │   │   ├── README.md
 │   │   └── start-service.sh
+│   └── mongo-replica-with-docker
+│   │   ├── admin.js
+│   │   ├── albums.js
+│   │   ├── create-replica-set.sh
+│   │   ├── env
+│   │   ├── grantRole.js
+│   │   ├── mongo-keyfile
+│   │   ├── replica.js
+│   │   └── reset-docker-machines.sh
+│   └── _docker_setup
+│   │   ├── create-images.sh
+│   │   ├── reset.sh
+│   │   ├── setup-swarm.sh
+│   │   └── start-services.sh
 ├── tests
 │   └── k6
 ├── web
@@ -54,7 +71,8 @@ Before you begin I recommend you read about the basic building blocks that assem
 ├── app.yml
 ├── LICENCE.md
 ├── package.json
-├── README.d
+├── README.md
+├── kraken.sh
 └── .gitignore
 ```
 

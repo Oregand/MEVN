@@ -120,24 +120,24 @@ To install the dependencies, run this in the application folder from the command
 1. Client && Server
 
 ```bash
-$ cd /web/webapp && yarn
+$ cd /web && npm
 ```
 
 This command does a few things:
 
 * First it will install the dependencies needed for the application to run.
 * If you're running in a development environment, it will then also install development dependencies needed for testing and running your application.
-* When the yarn packages install process is over, yarn will initiate a install command to install all the front-end modules needed for the application
-* To update these packages later on, just run `yarn update`
+* When the npm packages install process is over, npm will initiate a install command to install all the front-end modules needed for the application
+* To update these packages later on, just run `npm update`
 
 ## Running Your Application
 
-Run your application using yarn:
+Run your application using npm:
 
 1. Client
 
 ```bash
-$  yarn run dev
+$  npm run dev
 ```
 
 2. Server 

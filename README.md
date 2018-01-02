@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/MEVN/MEVN.svg?branch=master)](https://travis-ci.org/MEVN/MEVN)
 
+![MEVN](https://res.cloudinary.com/teepublic/image/private/s--mZ9W1-Vz--/t_Preview/b_rgb:262c3a,c_limit,f_jpg,h_630,q_90,w_630/v1500192566/production/designs/1741574_1.jpg)
+
 MEVN is a full-stack JavaScript open-source solution, which provides a solid starting point for [MongoDB](http://www.mongodb.org/), [Node.js](http://www.nodejs.org/), [Express](http://expressjs.com/), and [Vue.JS](https://vuejs.org/) based applications. The idea is to solve the common issues with connecting those frameworks, build a robust framework to support daily development needs, and help developers use better practices while working with popular JavaScript components.
 
 I was inspired by the MEAN stack but wanted to do a handful of things differently:

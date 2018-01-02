@@ -1,0 +1,289 @@
+[{
+    "_id": {
+      "$oid": "588ac3a02d029a6d15d0b5c4"
+    },
+    "name": "Plaza Morelia",
+    "storePremieres": [{
+        "id": "1",
+        "title": "Assasins Creed",
+        "runtime": 115
+      },
+      {
+        "id": "2",
+        "title": "Aliados",
+        "runtime": 124
+      },
+      {
+        "id": "3",
+        "title": "xXx: Reactivado",
+        "runtime": 107
+      }
+    ],
+    "storeRooms": [{
+        "name": 1,
+        "format": "IMAX",
+        "schedules": [{
+            "time": "10:15",
+            "album_id": "1",
+            "price": 54
+          },
+          {
+            "time": "4:35",
+            "album_id": "1",
+            "price": 71
+          },
+          {
+            "time": "6:55",
+            "album_id": "3",
+            "price": 79
+          }
+        ]
+      },
+      {
+        "name": 2,
+        "format": "Normal",
+        "schedules": [{
+          "time": "10:15",
+          "album_id": "2",
+          "price": 71
+        }]
+      },
+      {
+        "name": 3,
+        "format": "4DX",
+        "schedules": [{
+          "time": "10:15",
+          "album_id": "3",
+          "price": 71
+        }]
+      }
+    ],
+    "city_id": "588ababf2d029a6d15d0b5bf"
+  },
+  {
+    "_id": {
+      "$oid": "588ac3a02d029a6d15d0b5c5"
+    },
+    "name": "Las Americas",
+    "storePremieres": [{
+        "id": "1",
+        "title": "Assasins Creed",
+        "runtime": 115
+      },
+      {
+        "id": "3",
+        "title": "xXx: Reactivado",
+        "runtime": 107
+      }
+    ],
+    "storeRooms": [{
+        "name": 1,
+        "format": "Normal",
+        "schedules": [{
+            "time": "10:15",
+            "album_id": "1",
+            "price": 71
+          },
+          {
+            "time": "12:15",
+            "album_id": "3",
+            "price": 71
+          }
+        ]
+      },
+      {
+        "name": 2,
+        "format": "3D",
+        "schedules": [{
+            "time": "10:15",
+            "album_id": "1",
+            "price": 71
+          },
+          {
+            "time": "3:25",
+            "album_id": "3",
+            "price": 71
+          }
+        ]
+      }
+    ],
+    "city_id": "588ababf2d029a6d15d0b5bf"
+  },
+  {
+    "_id": {
+      "$oid": "588ac53c2d029a6d15d0b5c6"
+    },
+    "name": "Estacion Central",
+    "storeRooms": [{
+        "name": 1,
+        "schedules": [{
+            "time": "12:10",
+            "album_id": "1",
+            "price": 54
+          },
+          {
+            "time": "5:35",
+            "album_id": "2",
+            "price": 71
+          },
+          {
+            "time": "9:55",
+            "album_id": "3",
+            "price": 79
+          }
+        ]
+      },
+      {
+        "name": 2,
+        "schedules": [{
+          "time": "3:15",
+          "album_id": "4",
+          "price": 71
+        }]
+      },
+      {
+        "name": 3,
+        "schedules": [{
+          "time": "5:25",
+          "album_id": "5",
+          "price": 71
+        }]
+      }
+    ],
+    "city_id": "588ababf2d029a6d15d0b5c3"
+  },
+  {
+    "_id": {
+      "$oid": "588ac53c2d029a6d15d0b5c7"
+    },
+    "name": "San Agustin",
+    "storeRooms": [{
+      "name": 1,
+      "schedules": [{
+        "time": "12:15",
+        "album_id": "1",
+        "price": 71
+      }]
+    }],
+    "city_id": "588ababf2d029a6d15d0b5c3"
+  },
+  {
+    "_id": {
+      "$oid": "588ac65f2d029a6d15d0b5c8"
+    },
+    "name": "Calima",
+    "storeRooms": [{
+        "name": 1,
+        "schedules": [{
+            "time": "11:10",
+            "album_id": "3",
+            "price": 54
+          },
+          {
+            "time": "5:35",
+            "album_id": "1",
+            "price": 71
+          },
+          {
+            "time": "7:55",
+            "album_id": "3",
+            "price": 79
+          }
+        ]
+      },
+      {
+        "name": 2,
+        "schedules": [{
+          "time": "5:15",
+          "album_id": "1",
+          "price": 71
+        }]
+      },
+      {
+        "name": 3,
+        "schedules": [{
+          "time": "12:15",
+          "album_id": "4",
+          "price": 71
+        }]
+      }
+    ],
+    "city_id": "588ababf2d029a6d15d0b5c2"
+  },
+  {
+    "_id": {
+      "$oid": "588ac65f2d029a6d15d0b5c9"
+    },
+    "name": "Hayuelos Colombia",
+    "storeRooms": [{
+      "name": 1,
+      "schedules": [{
+        "time": "5:25",
+        "album_id": "5",
+        "price": 71
+      }]
+    }],
+    "city_id": "588ababf2d029a6d15d0b5c2"
+  },
+  {
+    "_id": {
+      "$oid": "588ac7332d029a6d15d0b5ca"
+    },
+    "name": "City Plaza",
+    "storeRooms": [{
+        "name": 1,
+        "schedules": [{
+            "time": "11:40",
+            "album_id": "1",
+            "price": 90
+          },
+          {
+            "time": "3:35",
+            "album_id": "1",
+            "price": 120
+          },
+          {
+            "time": "6:55",
+            "album_id": "3",
+            "price": 79
+          }
+        ]
+      },
+      {
+        "name": 2,
+        "schedules": [{
+          "time": "5:15",
+          "album_id": "2",
+          "price": 71
+        }]
+      }
+    ],
+    "city_id": "588ababf2d029a6d15d0b5c1"
+  },
+  {
+    "_id": {
+      "$oid": "588ac7a12d029a6d15d0b5cb"
+    },
+    "name": "Juriquilla Uptown",
+    "storeRooms": [{
+      "name": 1,
+      "schedules": [{
+          "time": "11:40",
+          "album_id": "1",
+          "price": 90
+        },
+        {
+          "time": "3:35",
+          "album_id": "1",
+          "price": 120
+        },
+        {
+          "time": "6:55",
+          "album_id": "3",
+          "price": 79
+        }
+      ]
+    }],
+    "city_id": "588ababf2d029a6d15d0b5c0"
+  }
+]
